@@ -94,6 +94,7 @@ padding-bottom: 40px;
 }
 .active{
     color:#D75D01;
+    text-decoration: underline #D75D01;
 }
 .hamburger {
     display: none;
