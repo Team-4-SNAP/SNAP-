@@ -322,11 +322,13 @@ select {
          filter: brightness(90%);
 }
 
+
 .one,
 .two,
 .three {
     width: 32%;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .four,
@@ -334,6 +336,7 @@ select {
 .six {
     width: 32%;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .seven,
@@ -341,6 +344,7 @@ select {
 .nine {
     width: 32%;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 800px) and (min-width: 320px) {
