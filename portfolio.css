@@ -314,6 +314,13 @@ select {
     align-items: center;
     flex-wrap: wrap;
 }
+.portfolio-images img{
+     transition: transform 0.5s;
+}
+.portfolio-images:hover img{
+         transform: scale(1.05);
+         filter: brightness(90%);
+}
 
 .one,
 .two,
