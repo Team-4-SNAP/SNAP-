@@ -156,6 +156,9 @@ footer {
     background: #000000;
     font-family: 'Dm sans', sans-serif;
 }
+footer a{
+text-decoration: none;
+}
 
 .foot {
     display: flex;
