@@ -1,120 +1,92 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
-    max-width: 100%;
     background-image: url(assets/contactus/Gradient.png);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: 60%;
-    position: relative;
-}
-img{
-    position: absolute;
-    right: 0px;
-    top: 20px;
-    padding-top: 60px;
-    height: 650px;
-    width: 35%;
-}
-.right-image img{
-    height:fit-content;
-    overflow: hidden;
-}
-.right-image{
-    overflow: hidden;
-}
-      /*PAGE DECO STYLING*/
-
-.bottom-deco{
-    position: absolute;
-    bottom: 3%;
-    left: 100px;
-}
-.top-deco{
-    position: absolute;
-    top: 50px;
-    right: 40%;
-}
-.top-deco img, .bottom-deco img{
-    height: 80px;
-    width:80px;
-}
-.awoman{
-    position: absolute;
-    left: 600px;
-    top: 150px;
-    width: max-content;
-    z-index: 1;
-}
-.awoman img{
-    height: 100%;
-    width: 70%;
+    background-size: 20% 30%;
+    max-width: 100%;
 }
 .portrait-container{
-    display: none;
+    display:none;
 }
-  /*FORM TEXT AND APPEARANCE*/
+.page-body{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10%; */
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 5%;
+    position: relative;
+    z-index: 2;
+}
+form{
+    width: 100%;
+    padding-left: 15rem;
+}
+.awoman img{
+    width: 100%;
+}
+/*PAGE DECO STYLING*/
+
+/*FORM TEXT AND APPEARANCE*/
 h1{
+    display: block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 48px;
     letter-spacing: 0.059rem;
     color: #030303;
-    padding-left: 14rem;
-    padding-top: 7%;
-    padding-bottom: 2rem;
-
-}
-form{
-    padding-left: 14rem;
+    padding-bottom: 24px;
 }
 .form-item{
-    font-family: 'DM sans',sans-serif;
+    font-family: 'DM sans',serif;
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.059rem;
-    padding-bottom: 1.5%;
+    padding-bottom: 2.5%;
 }
 input {
     border-radius: 8px;
     border: 0.5px solid #000;
     display: block;
     max-width: 100%;
-    width: 35%;
+    width: 75%;
     border: solid 1px #D2D2D2;
     padding: 0.5rem 0 0.5rem 1rem
 }
 #messagebox{
     max-width: 100%;
-    width: 35%;
+    width: 75%;
     height: 15%;
     border-radius: 8px;
     border: solid 1px #D2D2D2;
     padding: 5px;
+    resize: none;
 }
 .sub-button{
     font-family: 'DM Sans',sans-serif;
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.059rem;
-    background-color: #D75D01;
+    background-color: #FF2200;
     color: #FFFFFF;
     text-align: center;
     border-radius: 8px;
-    border: solid 1px #D75D01;
+    border: solid 1px #FF2200;
     padding: 8px 18px;
     max-width: 100%;
     display: block; 
-    margin-left: 14rem;
-    margin-bottom: 6.1rem;
 }
-textarea{
-    resize: none;
+footer a{
+    text-decoration: none;
 }
-      /*SCREEN RESPONSIVENESS*/
-      @media screen and (max-width: 850px){
+/*SCREEN RESPONSIVENESS*/
+@media screen and (max-width: 850px){
 body{
     background-image: none;
 }
@@ -125,28 +97,14 @@ body{
     display: block;
     margin: auto;
 }
-input{
-    width: 90%;
-}
-#messagebox{
-    width: 90%;
-    resize: none;
-}
 .page-body{
-    /* padding-left: 10%; */
     padding-left: 0;
-    margin-left: 0;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
 }
 input{
     width: 90%;
-}
-.form-item{
-    padding-left: 5%;
-    width: 90%;
-    margin: 0;
 }
 #messagebox{
     width: 90%;
@@ -157,38 +115,18 @@ h1{
     font-size: 2rem;
 }
 .sub-button{
-    margin:48px auto 1rem auto;
+    margin: auto;
 }
-img{
-    display: none;
-    }
+form{
+    padding-left: 5%;
+}
  }
- .portrait-container img{
-    display: block;
-    height: 100%;
-    width: 60%;
-    margin: 64px auto 40px auto;
- }
- @media screen and (max-width:1200px){
+ @media screen and (max-height:1200px){
     body{
-        background-size: 40%;
+        background-size: 40% 40%;
     }
-    h1{
-        padding-left: 15%;
-        padding-top: 14%;
-    }
-    .sub-button{
-        margin-left: 15%;
-    }
-    form{
-        padding-left: 15%;
-    }
-    .form-item{
-        padding-bottom: 1%;
-    }
-    /* HEADER */
+       /* HEADER */
 
- 
 #search {
     display: none;
 }
@@ -240,7 +178,6 @@ nav a {
     border-radius: 16px;
     padding: 10px 22px;
     color: white;
-    border: 1px solid #D75D01;
 }
 
 .btn:hover {
@@ -252,9 +189,6 @@ nav a {
 footer {
     background: #000000;
     font-family: 'DM sans', sans-serif;
-}
-     footer a{
-text-decoration: none;
 }
 
 .foot {
@@ -279,7 +213,6 @@ text-decoration: none;
 
 .features {
     width: 45%;
-    /* padding-top: 30px; */
 }
 
 .company {
@@ -334,7 +267,7 @@ select {
 }
  }
 
-@media screen and (max-width: 800px) and (min-width: 320px) {
+@media screen and (max-width: 850px) and (min-width: 320px) {
     header {
         padding: 16px 20px;
         position: relative;
@@ -404,7 +337,7 @@ select {
     .features {
         width: 50%;
         margin-left: 20px;
-        margin-top: -20px;
+        margin-top: 20px;
     }
 
     .company {
@@ -413,13 +346,16 @@ select {
 
     .help {
         width: 50%;
-        margin-top: -12px;
+        margin-top: 12px;
     }
 
     .reserve {
         margin-left: -60px;
     }
     .sub-button {
-        margin: 50px auto 50px auto;
+        margin: 24px auto 18px auto;
+    }
+    .awoman{
+        display: none;
     }
 }
