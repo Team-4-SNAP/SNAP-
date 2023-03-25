@@ -314,13 +314,6 @@ select {
     align-items: center;
     flex-wrap: wrap;
 }
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine img{
-     transition: transform 0.5s;
-}
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine :hover img{
-         transform: scale(1.05);
-         filter: brightness(90%);
-}
 
 
 .one,
@@ -328,7 +321,6 @@ select {
 .three {
     width: 32%;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .four,
@@ -336,7 +328,6 @@ select {
 .six {
     width: 32%;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .seven,
@@ -344,7 +335,6 @@ select {
 .nine {
     width: 32%;
     margin-bottom: 50px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 800px) and (min-width: 320px) {
