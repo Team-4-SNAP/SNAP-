@@ -283,7 +283,9 @@ select {
         background: #F4F4F4;
         border-radius: 16px;
     }
-
+    footer{
+        display: none;
+    }
     #search::placeholder {
         text-align: center;
     }
