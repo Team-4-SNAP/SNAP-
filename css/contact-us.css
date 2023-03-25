@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(assets/contactus/Gradient.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding-top: 60px;
+    height: 650px;
+    width: 35%;
+}
+.right-image img{
+    height:fit-content;
+    overflow: hidden;
+}
+.right-image{
+    overflow: hidden;
+}
+      /*PAGE DECO STYLING*/
+
+.bottom-deco{
+    position: absolute;
+    bottom: 3%;
+    left: 100px;
+}
+.top-deco{
+    position: absolute;
+    top: 50px;
+    right: 40%;
+}
+.top-deco img, .bottom-deco img{
+    height: 80px;
+    width:80px;
+}
+.awoman{
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    width: max-content;
+    z-index: 1;
+}
+.awoman img{
+    height: 100%;
+    width: 70%;
+}
+.portrait-container{
+    display: none;
+}
+  /*FORM TEXT AND APPEARANCE*/
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.059rem;
+    color: #030303;
+    padding-left: 14rem;
+    padding-top: 7%;
+    padding-bottom: 2rem;
+
+}
+form{
+    padding-left: 14rem;
+}
+.form-item{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    padding-bottom: .5%;
+}
+input {
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    display: block;
+    max-width: 100%;
+    width: 35%;
+    border: solid 1px #D2D2D2;
+    padding: 0.5rem 0 0.5rem 1rem
+}
+#messagebox{
+    max-width: 100%;
+    width: 35%;
+    height: 15%;
+    border-radius: 8px;
+    border: solid 1px #D2D2D2;
+    padding: 5px;
+}
+.sub-button{
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    background-color: #D75D01;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #D75D01;
+    padding: 8px 18px;
+    max-width: 100%;
+    display: block; 
+    margin-left: 14rem;
+    margin-bottom: 6.1rem;
+}
+      /*SCREEN RESPONSIVENESS*/
+      @media screen and (max-width: 850px){
+body{
+    background-image: none;
+}
+.page-deco{
+    display: none;
+}
+.portrait-container{
+    display: block;
+    margin: auto;
+}
+input{
+    width: 90%;
+}
+#messagebox{
+    width: 95%;
+}
+.page-body{
+    /* padding-left: 10%; */
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 95%;
+}
+.form-item{
+    padding-left: 5%;
+    width: 95%;
+    margin: 0;
+}
+#messagebox{
+    width: 95%;
+}
+h1{
+    text-align: center;
+    padding-left: 0;
+    font-size: 2rem;
+}
+.sub-button{
+    margin:64px auto 1rem auto;
+}
+img{
+    display: none;
+    }
+ }
+ .portrait-container img{
+    display: block;
+    height: 100%;
+    width: 60%;
+    margin: 64px auto 40px auto;
+ }
+ @media screen and (max-width:1200px){
+    body{
+        background-size: 40%;
+    }
+    h1{
+        padding-left: 15%;
+        padding-top: 14%;
+    }
+    .sub-button{
+        margin-left: 15%;
+    }
+    form{
+        padding-left: 15%;
+    }
+    .form-item{
+        padding-bottom: 1%;
+    }
+    /* HEADER */
+
+ 
+#search {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    font-family: 'DM sans', sans-serif;
+}
+
+header .logo {
+    width: 45%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.944444px;
+    color: #959292;
+
+}
+
+.active {
+    color: #D75D01;
+    text-decoration: underline #D75D01;
+}
+
+.btn {
+    background: #D75D01;
+    border-radius: 16px;
+    padding: 10px 22px;
+    color: white;
+    border: 1px solid #D75D01;
+}
+
+.btn:hover {
+    border: 1px solid #D75D01;
+    color: #D75D01;
+    background: none;
+}
+
+footer {
+    background: #000000;
+    font-family: 'DM sans', sans-serif;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+}
+
+.one,
+.two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+.product {
+    width: 45%;
+}
+
+.features {
+    width: 45%;
+    /* padding-top: 30px; */
+}
+
+.company {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.help {
+    width: 45%;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.944444px;
+    text-transform: capitalize;
+}
+
+footer h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.944444px;
+    margin-bottom: 10px;
+}
+
+.reserve {
+    padding: 16px 80px;
+}
+
+.reserve p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+select {
+    background: #000;
+    color: white;
+    padding: 8px 30px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+ }
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
+    header {
+        padding: 16px 20px;
+        position: relative;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .logo {
+        width: 30%;
+        margin-left: -15px;
+    }
+
+    #search {
+        display: block;
+        /* margin: 0 auto; */
+        margin-left: -60px;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 15px;
+        border: none;
+        background: #F4F4F4;
+        border-radius: 16px;
+    }
+
+    #search::placeholder {
+        text-align: center;
+    }
+
+    .icon {
+        position: absolute;
+        left: 35%;
+        top: 33%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    .foot {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 16px 20px;
+    }
+
+    footer h3{
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+    .one,
+    .two {
+        width: 100%;
+    }
+
+    .product {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    .features {
+        width: 50%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .company {
+        width: 50%;
+    }
+
+    .help {
+        width: 50%;
+        margin-top: -12px;
+    }
+
+    .reserve {
+        margin-left: -60px;
+    }
+    .sub-button {
+        margin: 50px auto 50px auto;
+    }
+}
