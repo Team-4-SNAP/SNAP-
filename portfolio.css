@@ -314,10 +314,10 @@ select {
     align-items: center;
     flex-wrap: wrap;
 }
-.portfolio-images img{
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine img{
      transition: transform 0.5s;
 }
-.portfolio-images:hover img{
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine :hover img{
          transform: scale(1.05);
          filter: brightness(90%);
 }
