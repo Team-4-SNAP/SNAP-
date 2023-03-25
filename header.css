@@ -47,6 +47,10 @@ nav a {
 
 }
 
+nav a:hover{
+    color: #D75D01;
+}
+
 .active {
     color: #D75D01;
     text-decoration: underline #D75D01;
@@ -57,10 +61,10 @@ nav a {
     border-radius: 16px;
     padding: 10px 22px;
     color: white;
+    border: 1px solid #D75D01;
 }
 
 .btn:hover {
-    border: 1px solid #D75D01;
     color: #D75D01;
     background: none;
 }
