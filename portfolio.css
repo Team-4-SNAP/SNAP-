@@ -60,6 +60,10 @@ nav a {
 
 }
 
+nav a:hover{
+    color: #D75D01;
+}
+
 .active {
     color: #D75D01;
     text-decoration: underline #D75D01;
@@ -74,7 +78,6 @@ nav a {
 }
 
 .btn:hover {
-    border: 1px solid #D75D01;
     color: #D75D01;
     background: none;
 }
@@ -407,6 +410,8 @@ select {
     .portfolio-images {
         flex-direction: column;
         margin-top: -20px;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .show{
