@@ -3,6 +3,7 @@
     margin: 0;
 }
 body{
+    max-width: 100%;
     background-image: url(assets/contactus/Gradient.png);
     background-position: top left;
     background-repeat: no-repeat;
