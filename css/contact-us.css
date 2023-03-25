@@ -74,7 +74,7 @@ form{
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.059rem;
-    padding-bottom: .5%;
+    padding-bottom: 1.5%;
 }
 input {
     border-radius: 8px;
@@ -128,7 +128,8 @@ input{
     width: 90%;
 }
 #messagebox{
-    width: 95%;
+    width: 90%;
+    resize: none;
 }
 .page-body{
     /* padding-left: 10%; */
@@ -139,15 +140,15 @@ input{
     flex-direction: column;
 }
 input{
-    width: 95%;
+    width: 90%;
 }
 .form-item{
     padding-left: 5%;
-    width: 95%;
+    width: 90%;
     margin: 0;
 }
 #messagebox{
-    width: 95%;
+    width: 90%;
 }
 h1{
     text-align: center;
@@ -155,7 +156,7 @@ h1{
     font-size: 2rem;
 }
 .sub-button{
-    margin:64px auto 1rem auto;
+    margin:48px auto 1rem auto;
 }
 img{
     display: none;
