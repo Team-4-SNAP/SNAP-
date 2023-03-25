@@ -1,0 +1,495 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE FORM PROPERTIES */
+.lens{
+    display: none;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: #030303;
+    padding-bottom: .5rem;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.059rem;
+    padding-left: 12rem;
+}
+.below{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 12rem;
+}
+.page-body{
+    display: flex;
+}
+.awoman img{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+.awoman{
+    width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.page-text{
+    width: 50%;
+    margin: 80px auto 50px auto;
+}
+.form-item{
+    padding-left: 12rem;
+    padding-bottom: 3%;
+}
+.form-input{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    height: 3%;
+    width: 100%;
+    height: 8%;
+}
+.input-box{
+    width: 70%;
+    line-height: 20px;
+    padding: 5px 25px;
+    /* max-width: 70%; */
+    border: 1px solid #383838;
+    border-radius: 4px;
+    display: block;
+    border: solid 1px #D2D2D2;
+}
+.form-item-button{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    margin-left: 12rem;
+    background-color: #D75D01;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px#D75D01;
+    padding: 10px 20px;
+    max-width: 100%;
+    display: block;
+}
+input {
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #D2D2D2;
+    display: block;
+    width: 70%;
+}
+
+.signup-image-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+
+.sign-up-with{
+    display: none;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin: 14px auto 0 auto;
+}
+/* HEADER AND FOOTER */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#search {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    font-family: 'DM sans', sans-serif;
+}
+
+header .logo {
+    width: 45%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.944444px;
+    color: #959292;
+
+}
+
+.active {
+    color: #D75D01;
+    text-decoration: underline #D75D01;
+}
+
+.btn {
+    border-radius: 16px;
+    padding: 10px 22px;
+    color: #D75D01;
+    border: 1px solid #D75D01;
+}
+
+.btn:hover {
+    border: 1px solid #D75D01;
+    color: #D75D01;
+    background: none;
+}
+
+footer {
+    background: #000000;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'DM sans', sans-serif;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+}
+
+.one,
+.two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+.product {
+    width: 45%;
+}
+
+.features {
+    width: 45%;
+}
+
+.company {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.help {
+    width: 45%;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.944444px;
+    text-transform: capitalize;
+}
+
+footer h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.944444px;
+    margin-bottom: 10px;
+}
+
+.reserve {
+    padding: 16px 80px;
+}
+
+.reserve p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+select {
+    background: #000;
+    color: white;
+    padding: 8px 30px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
+    header {
+        padding: 16px 20px;
+        position: relative;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .logo {
+        width: 30%;
+        margin-left: -15px;
+    }
+
+    #search {
+        display: block;
+        /* margin: 0 auto; */
+        margin-left: -60px;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 15px;
+        border: none;
+        background: #F4F4F4;
+        border-radius: 16px;
+    }
+
+    #search::placeholder {
+        text-align: center;
+    }
+
+    .icon {
+        position: absolute;
+        left: 35%;
+        top: 33%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    .foot {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 16px 20px;
+    }
+
+    footer h3{
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+    .one,
+    .two {
+        width: 100%;
+    }
+
+    .product {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    .features {
+        width: 50%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .company {
+        width: 50%;
+    }
+
+    .help {
+        width: 50%;
+        margin-top: -12px;
+    }
+
+    .reserve {
+        margin-left: -60px;
+    }
+}
+/* RESPONSIVENESS */
+@media only screen and (max-width: 800px){
+body{
+    background: #FFFFFF;
+}
+.awoman{
+    display: none;
+}
+.signup-image-container{
+    display: none;
+}
+footer{
+    display: none;
+}
+.form-item{
+ padding-bottom: 3%;
+}
+ .below{
+    font-weight: 400;
+    color: #666666;
+    font-size: 1rem;
+    padding-bottom: 24px;
+    padding-left: 1rem;
+    text-align: center;
+    max-width: 90%;
+}
+.page-body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+}
+.page-text{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+form{
+    padding-left: 1rem;
+}
+.form-item{
+    padding-left: 5%;
+    width: 95%;
+    padding-bottom: 3%;
+}
+.form-input{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    height: 3%;
+    width: 100%;
+    color:#030303;
+    height: 8%;
+}
+.input-box{
+    width: 100%;
+    line-height: 20px;
+    padding: 5px 20px;
+    max-width: 90%;
+    border: 1px solid #383838;
+    border-radius: 4px;
+    display: block;
+
+}
+.form-item-button{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.059rem;
+    margin: 0 auto;
+    background-color:#D75D01;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #D75D01;
+    max-width: 100%;
+    display: block;
+}
+input {
+    height: 40px;
+    border-radius: 6px;
+    display: block;
+    border: solid 1px #666666;
+}
+.lens{
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+}
+h1{
+    padding-left: 0;
+    text-align: center;
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 1rem;
+    padding-bottom: 16px;
+}
+.sign-up-with{
+    display: block;
+    text-align: center;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.sign-up-with p{
+    padding: 8px;
+    margin-bottom: 0;
+}
+.logos{
+    justify-content: center;
+    gap: 7px;
+    padding-bottom: 8px;
+    margin-top: 0;
+}   }
+@media screen and (max-width: 1400px){
+    .input-box{
+        max-width: 100%;
+        width: 100%;
+        height: 34px;
+    }
+    .page-text{
+        width: 90%;
+        padding-left: 2rem;
+        margin: 128px 0 0 0;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .below{
+        font-size: 15px;
+        padding-bottom: 24px;
+    }
+    .form-input{
+        font-size: 16px;
+        letter-spacing: 0.05875rem;
+    }
+    .form-item{
+        padding-bottom: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .form-item-button{
+        padding: 12px 32px;
+        font-size: 20px;
+    }
+    .awoman img{
+        width: 100%;
+        height: 93%;
+}
+}
