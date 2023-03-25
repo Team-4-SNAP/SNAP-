@@ -73,7 +73,7 @@ input {
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.059rem;
-    background-color: #FF2200;
+    background-color: #D75D01;
     color: #FFFFFF;
     text-align: center;
     border-radius: 8px;
@@ -177,6 +177,7 @@ nav a {
     background: #D75D01;
     border-radius: 16px;
     padding: 10px 22px;
+    border: 1px solid #D75D01;
     color: white;
 }
 
