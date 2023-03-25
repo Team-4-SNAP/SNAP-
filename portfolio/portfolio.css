@@ -88,12 +88,6 @@ a:hover{
     align-items: center;
     flex-wrap: wrap;
 }
-.portfolio-images img{
-     transition: transform 0.5s;
-}
-    .portfolio-images:hover img{
-         transform: scale(1.05);
-         filter: brightness(90%);
 }
 
 .one,
@@ -101,7 +95,6 @@ a:hover{
 .three{
     width: 32%;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .four,
@@ -109,7 +102,6 @@ a:hover{
 .six{
     width: 32%;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .seven,
@@ -117,7 +109,6 @@ a:hover{
 .nine{
     width: 32%;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 800px) and (min-width: 320px) {
